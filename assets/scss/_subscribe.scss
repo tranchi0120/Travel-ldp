@@ -1,0 +1,30 @@
+.subscribe {
+  &__bg {
+    background-color: $first-color-second;
+    padding: 2.5rem 0;
+  }
+  &__title,
+  &__description {
+    color: $white-color;
+  }
+  &__description {
+    text-align: center;
+    margin-bottom: $mb-2-5;
+  }
+  &__form {
+    background-color: $input-color;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__input {
+    width: 70%;
+    padding-right: 0.5rem;
+    background-color: $input-color;
+    color: $text-color;
+
+    &::placeholder {
+      color: $text-color;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "scrollreveal": "^4.0.9"
+  }
+}
