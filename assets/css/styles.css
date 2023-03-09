@@ -77,6 +77,8 @@ body.dark-theme h2,
 body.dark-theme h3 {
   color: hsl(190, 8%, 75%);
 }
+body.dark-theme .nav__link,
+body.dark-theme .active-link,
 body.dark-theme span,
 body.dark-theme p {
   color: hsl(190, 8%, 75%);
@@ -261,7 +263,7 @@ body.dark-theme .nav__logo {
 /* Change background header */
 .scroll-header {
   background-color: hsl(190, 100%, 99%);
-  box-shadow: 0 0 4px hsla(190, 64%, 15%, 0.15);
+  box-shadow: 0 0 20px hsl(190, 64%, 15%);
 }
 .scroll-header .nav__logo, .scroll-header .nav__toggle {
   color: hsl(190, 64%, 18%);
